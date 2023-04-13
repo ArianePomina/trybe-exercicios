@@ -39,3 +39,11 @@ imprimeIdade()
     return Math.random()
   }
   console.log(numeroAleatorio());
+
+
+    let nome1 = 'Ivan';
+    const hello = (nome1) => {
+    
+    return `Olá, ${nome1}!`
+  }
+  console.log(hello(nome1));
