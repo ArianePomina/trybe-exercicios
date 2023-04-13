@@ -34,3 +34,8 @@ imprimeIdade()
   let b = 5;
   console.log(`O resultado da soma de ${a} + ${b} é ${a + b}`);
   //console.log('O resultado da soma de ' + a + ' + ' + b + ' é: ' + soma(a,b));
+
+    const numeroAleatorio = () => {
+    return Math.random()
+  }
+  console.log(numeroAleatorio());
