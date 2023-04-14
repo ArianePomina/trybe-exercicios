@@ -9,3 +9,17 @@ on === 'ligado'
 
 console.log(onOffCar(on)); 
 
+
+//crie uma função que calcule a área de um círculo
+
+
+const raio = 7;
+const pi = 3.14;
+  
+const areaCirculo = (raio) => {
+    let area = pi * (raio ** 2);
+    return typeof raio !== 'number'
+    ?'A entrada deve ser um número'
+    :`Esta é a área do círculo: ${area}`;
+}
+console.log(areaCirculo(raio));
